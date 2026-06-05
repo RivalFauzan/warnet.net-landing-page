@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header svg {
+  margin: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem; */
+  background-color: #1f2937;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  width: 500px;
+}
+
+.hero img {
+  width: 500px;
+  height: auto;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.main-info {
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+.main-info h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.info-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  width: 120px;
+}
+.info-card {
+  color: #fff;
+  width: 120px;
+  height: 120px;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid blue;
+}
+
+.quote {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.quote div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 1rem;
+  color: #1f2937;
+  border-radius: 0.5rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #1f2937; */
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 200px;
+}
+.footer-content {
+  background-color: #3882f6;
+  width: 600px;
+  height: 100px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-content button {
+  background-color: #fff;
+  color: #3882f6;
+  border: none;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
